@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "e436d407-6866-4433-9abf-7f07067ac8a8",
+		"name": "Docusign Discover Workshop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4345407"
+	},
+	"item": [
+		{
+			"name": "Get Workflow Definitions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.services.docusign.net/aow-manage/v1.0/management/accounts/{{accountId}}/workflowDefinitions",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"services",
+						"docusign",
+						"net"
+					],
+					"path": [
+						"aow-manage",
+						"v1.0",
+						"management",
+						"accounts",
+						"{{accountId}}",
+						"workflowDefinitions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Workflow Definition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.services.docusign.net/aow-manage/v1.0/management/accounts/{{accountId}}/workflowDefinitions/{{workflowId}}",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"services",
+						"docusign",
+						"net"
+					],
+					"path": [
+						"aow-manage",
+						"v1.0",
+						"management",
+						"accounts",
+						"{{accountId}}",
+						"workflowDefinitions",
+						"{{workflowId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Agreements",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-d.docusign.com/v1/accounts/{{accountId}}/agreements",
+					"protocol": "https",
+					"host": [
+						"api-d",
+						"docusign",
+						"com"
+					],
+					"path": [
+						"v1",
+						"accounts",
+						"{{accountId}}",
+						"agreements"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjY4MTg1ZmYxLTRlNTEtNGNlOS1hZjFjLTY4OTgxMjIwMzMxNyJ9.eyJUb2tlblR5cGUiOjUsIklzc3VlSW5zdGFudCI6MTczMDkyNDE1OSwiZXhwIjoxNzMwOTUyOTU5LCJVc2VySWQiOiJmYTM0YzhhOS1mOGUzLTRkOTgtOTEwMy0xMThkZjVkZmE0M2IiLCJzaXRlaWQiOjEsInNjcCI6WyJzaWduYXR1cmUiLCJjbGljay5tYW5hZ2UiLCJtZV9wcm9maWxlIiwicm9vbV9mb3JtcyIsImlucHJvZHVjdGNvbW11bmljYXRpb25fcmVhZCIsImRhdGFfZXhwbG9yZXJfc2lnbmluZ19pbnNpZ2h0cyIsIm5vdGFyeV9yZWFkIiwibm90YXJ5X3dyaXRlIiwic2VhcmNoX3JlYWQiLCJzZWFyY2hfd3JpdGUiLCJ3ZWJmb3Jtc19tYW5hZ2UiLCJkdHIiLCJ2YWxtb2RfbWFuYWdlIiwibW9kZWxzX2VzaWduX21hbmFnZSIsImFvd19tYW5hZ2UiLCJtb2RlbHNfcmVhZCIsImFkZG9uX21hbmFnZW1lbnRfYXBpIiwiYWRfcmVhZCIsInB1YmxpY19kbXNfZG9jdW1lbnRfcmVhZCIsImFkbV9zdG9yZV91bmlmaWVkX3JlcG9fcmVhZCIsImFkbV9zdG9yZV91bmlmaWVkX3JlcG9fd3JpdGUiLCJjZHNfcmVhZCIsImFwcl9yZWFkIiwiYXByX3dyaXRlIiwiZG9jdW1lbnRfdXBsb2FkZXJfcmVhZCIsImRvY3VtZW50X3VwbG9hZGVyX3dyaXRlIiwidXNlcl9yZWFkIiwiZ3JvdXBfcmVhZCIsImFjY291bnRfcmVhZCIsImFjdF9yZWFkIiwibW9kZWxzX3dyaXRlIl0sImF1ZCI6IjJjYzU2ZGM5LTRiY2QtNGI1NS04YWIwLThiYTYwYmFlMTA2NSIsImF6cCI6IjJjYzU2ZGM5LTRiY2QtNGI1NS04YWIwLThiYTYwYmFlMTA2NSIsImlzcyI6Imh0dHBzOi8vYWNjb3VudC1kLmRvY3VzaWduLmNvbS8iLCJzdWIiOiJmYTM0YzhhOS1mOGUzLTRkOTgtOTEwMy0xMThkZjVkZmE0M2IiLCJhbXIiOlsibWFuYWdlZCIsImRzX2ludGVybmFsIiwiaW50ZXJhY3RpdmUiXSwiYXV0aF90aW1lIjoxNzMwOTI0MTU4fQ.rP-UOwlnsgLf0ijZvG9O3sZXSWyyI_gsPb8eGU1d8LisZY6sAt04gFfwoLb_ybsJqyUv7wg_FZdVIiovRuV_GhEgok76usCUX1mnEOfqA0OwxjdiKSFlVZWGuRYfzY2SpTGDYExFv2sSO_MN2tFQ_qRBMMNdcF4UiSPywMRdG1qrw2rclV7uF5p6sppCVrkTCL8BHcDCCArp7QuF7MCHFS0XzPAUmO4VC8GKgEEXoJY-xChxz9Vn1qkGMTmGB4RpqOhCnpuoaUVdzQ23gR9vv4xjWg_k75Uk7c_4ZGK1E6a93wTTLAnjER9bybLcLYLodMdddyX3sroA-C12xzEVQw",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "accountId",
+			"value": "db5cb101-9c24-449e-9367-aa6a2ae50bf6",
+			"type": "string"
+		},
+		{
+			"key": "workflowId",
+			"value": "121bdcb3-fdd4-48dc-9103-e72dc3741ba0",
+			"type": "string"
+		}
+	]
+}
