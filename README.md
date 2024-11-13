@@ -4,7 +4,7 @@
 
 ## Step 1A: Log in to the developer account
 
-* Open [https://account:d.docusign.com/](https://account-d.docusign.com/) and log in to your Docusign Developer account with the credentials that were assigned to you.
+* Open [https://account-d.docusign.com/](https://account-d.docusign.com/) and log in to your Docusign Developer account with the credentials that were assigned to you.
 
 ## Step 1B: Use the JSON file to create a new eSignature template
 
