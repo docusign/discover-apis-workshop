@@ -19,7 +19,7 @@
 
 ## Step 2A: Upload the web form configuration to create the web form
 
-* Open [https://account:d.docusign.com/](https://account-d.docusign.com/) and log in to your Docusign Developer account.  
+* Open [https://account-d.docusign.com/](https://account-d.docusign.com/) and log in to your Docusign Developer account.  
 * Once logged in to the account, select **Templates** from the top-level menu.   
 * Open the **Start** menu at the top left.  
 * Under **Web Forms,** select **Upload Web Form**.  
