@@ -243,7 +243,7 @@
 * In the Value textbox, type “Bearer ” and then paste the access token you saved from Step 4\.  
 * Select **Body**.  
 * Select the **raw** radio button.  
-* Paste the following JSON into the textbox: {"instanceName": "Discover test run 1","participants": {},"payload": {},"metadata": {}}  
+* Paste the following JSON into the textbox: '{"instanceName": "Discover test run 1","participants": {},"payload": {},"metadata": {}}'
 * Select **Send** to make the API call.  
 * If everything was set up correctly, you should get back a small JSON object that includes an instanceId and a workflowInstanceUrl property.  
 * Copy the workflowInstanceUrl property for use in the next step.
