@@ -50,7 +50,7 @@
 ## Step 3B: Add the Web Form step and configure it
 
 * Select **Add a step**.  
-* Select **Collect Data with Web Forms** from the list**.**  
+* Select **Collect Data with Web Forms** from the list.
 * Select **Configure**.  
 * From the **Choose form** dropdown menu, select **Account Opening**.  
 * Select **Next**.  
