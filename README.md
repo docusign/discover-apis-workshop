@@ -169,7 +169,7 @@
 * Select **Extensions** on the left menu.  
 * Select the three dots icon at the top of the menu.  
 * Select **Install from VSIX…**
-* Go to [https://github.com/docusign/discover-apis-workshop/blob/main/docusign-copilot-extension.vsix](https://github.com/docusign/discover-apis-workshop/blob/main/DocusignVisualStudioCodeExtension.zip) to find the ZIP File that contains the VSIX file and select the **Download raw file** button on the top right. You will have to unzip this file using the password we provide. 
+* Go to [DocusignVisualStudioCodeExtension.ZIP](https://github.com/docusign/discover-apis-workshop/blob/main/DocusignVisualStudioCodeExtension.zip) to find the ZIP File that contains the VSIX file and select the **Download raw file** button on the top right. You will have to unzip this file using the password we provide. 
 * Copy the VSIX file from GitHub into your local drive and select that file.  
 * Select **Install**.  
 * If asked to do so, restart VS Code.
