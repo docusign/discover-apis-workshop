@@ -168,7 +168,7 @@
 * Open VS Code.  
 * Select **Extensions** on the left menu.  
 * Select the three dots icon at the top of the menu.  
-* Select **Install from VSIX…**  
+* Select **Install from VSIX…**  which you unzipped from DocusignVisualStudioCodeExtension.ZIP
 * Go to [https://github.com/docusign/discover-apis-workshop/blob/main/docusign-copilot-extension.vsix](https://github.com/docusign/discover-apis-workshop/blob/main/docusign-copilot-extension.vsix) to find the VSIX file and select the **Download raw file** button on the top right.   
 * Copy the VSIX file from GitHub into your local drive and select that file.  
 * Select **Install**.  
@@ -294,6 +294,6 @@
 2. JSON file for eSignature Template definition (AccountOpeningWireTransferApproval.json).  
 3. JSON file for Web Form configuration (Account\_Opening\_Template.json).  
 4. Postman collection file (Docusign Discover Workshop.postman\_collection.json).  
-5. VSIX file for VS Code extension (docusign-copilot-extension.vsix). 
+5. ZIP file for VS Code extension (DocusignVisualStudioCodeExtension.zip). 
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAARCAYAAAA2cze9AAABlUlEQVR4XtWTIY/CMBzF+Rj4KjwY1BXBcgkGggAzDAmChJxHHKoYZkZIavYFNlFMBVlC0kzU7Du9a8fGLQx2d1xOnHhJ+2//v7Svr41ms4m/UuO2UBZpUzivjlEXrazWQjebO6BtUtl/q/twMgKLFNI0/ZSSkKo0N1IRw4jc6a+DO55EqiV2M4qOaSb9DYQ2QC2w6ZsTkw7obAdpatJzKv218HVkQNG6VJuAn03tzDGp3fcM/IVBZlZIsJeafd+BTw7Wb4XQ22Cz5RD21IXnZwG+NXUvhLK+HyaV/odwMmQQifVXQSUa2kgdOVbGa9JfgR9VVtOJWbfvkAiw4f3k3MAH8E95Gq7XNfHrdUCyMUGnV8Qyt8XuPfkYfA1fIyyiVsCn3Fw/hj8247GP2NjFpzfwNMT6eXgOLI9/Didw9/H1qq79hcTB/G0Omq3TbOzY7Lfdq4Xx3s1tq4VfRJcc0j6qTYMUCGxq3nN5AYTMf28iwZe00l8Lv6iFwYIhOMbQNhWFXVojPgZgi8H1YR+pBv57/V/4B199vDbs33fsAAAAAElFTkSuQmCC>
